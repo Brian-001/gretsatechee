@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.bg-img{
+    background-image: url(/public/images/cvi.jpg);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+}
