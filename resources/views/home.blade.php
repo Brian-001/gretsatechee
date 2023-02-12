@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     @vite('resources/css/app.css')
+    @vite('resources/js/app.js')
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
     <title>Home</title>
 </head>
 <style>
@@ -88,31 +90,38 @@
                 </div>
             </div>
             <div class ='p-4 flex gap-4 flex-wrap justify-start'>
-                <div class = 'p-3 flex justify-center items-center h-64 w-72 rounded-2xl shadow-2xl bg-gradient-to-r from-cyan-500 to-blue-500'>
+                <div class = 'p-3 flex flex-col justify-center items-center h-64 w-72 rounded-2xl shadow-2xl bg-gradient-to-r from-cyan-500 to-blue-500'>
+                    <x-microns-web class="h-12 w-12 text-white"/>
                     <h1 class="text-white text-lg font-bold">Web Development</h1>
                 </div>
                 
-                <div class = 'p-3 flex justify-center items-center h-64 w-72 rounded-2xl shadow-2xl bg-gradient-to-r from-cyan-500 to-blue-500'>
-                    <h1 class="text-white text-lg font-bold">Android Dev</h1>
+                <div class = 'p-3 flex flex-col justify-center items-center h-64 w-72 rounded-2xl shadow-2xl bg-gradient-to-r from-cyan-500 to-blue-500'>
+                    <x-eos-android class="h-12 w-12 text-white"/>
+                    <h1 class="text-white text-lg font-bold p-2">Android Dev</h1>
                 </div>
-                <div class = 'p-3 flex justify-center items-center h-64 w-72 rounded-2xl shadow-2xl bg-gradient-to-r from-cyan-500 to-blue-500'>
-                    <h1 class="text-white text-lg font-bold">Cyber Security</h1>
+                <div class = 'p-3 flex flex-col justify-center items-center h-64 w-72 rounded-2xl shadow-2xl bg-gradient-to-r from-cyan-500 to-blue-500'>
+                    <x-gmdi-security class="h-12 w-12 text-white" />
+                    <h1 class="text-white text-lg font-bold p-2">Cyber Security</h1>
                 </div>
-                <div class = 'p-3 flex justify-center items-center h-64 w-72 rounded-2xl shadow-2xl bg-gradient-to-r from-cyan-500 to-blue-500'>
-                    <h1 class="text-white text-lg font-bold">Networking</h1>
+                <div class = 'p-3 flex flex-col justify-center items-center h-64 w-72 rounded-2xl shadow-2xl bg-gradient-to-r from-cyan-500 to-blue-500'>
+                    <x-lucide-network class="h-12 w-12 text-white"/>
+                    <h1 class="text-white text-lg font-bold p-2">Networking</h1>
+                    
                 </div>
-                <div class = 'p-3 flex justify-center items-center h-64 w-72 rounded-2xl shadow-2xl bg-gradient-to-r from-cyan-500 to-blue-500'>
-                    <h1 class="text-white text-lg font-bold">Data Science</h1>
+                <div class = 'p-3 flex flex-col justify-center items-center h-64 w-72 rounded-2xl shadow-2xl bg-gradient-to-r from-cyan-500 to-blue-500'>
+                    <x-eos-data-scientist class="h-12 w-12 text-white"/>
+                    <h1 class="text-white text-lg font-bold p-2">Data Science</h1>  
                 </div>
-                <div class = 'p-3 flex justify-center items-center h-64 w-72 rounded-2xl shadow-2xl bg-gradient-to-r from-cyan-500 to-blue-500'>
-                    <h1 class="text-white text-lg font-bold">UI/UX Design</h1>
+                <div class = 'p-3 flex flex-col justify-center items-center h-64 w-72 rounded-2xl shadow-2xl bg-gradient-to-r from-cyan-500 to-blue-500'>
+                    <x-elusive-brush class="h-12 w-12 text-white"/>
+                    <h1 class="text-white text-lg font-bold p-2">UI/UX Design</h1>
                 </div>
             </div>
         </section>
         
-        <footer>
-
-        </footer>
+        <section class="w-full h-[30vh] p-3 bg-black">
+            <canvas class = 'w-full h-full object-cover' id="canvas" >
+        </section>
     </main>
 </body>
 </html>
