@@ -122,6 +122,43 @@
         <section class="w-full h-[30vh] p-3 bg-black">
             <canvas class = 'w-full h-full object-cover' id="canvas" >
         </section>
+        <section class="w-full h-[30vh] p-3 bg-gray-700">
+            <div class="social">
+                <h3 class="text-white text-lg top-6 flex flex-col p-12">Social Media</h3>
+                <ul class="flex flex-wrap space-x-6">
+                    
+                    <a href="#">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span><x-eos-whatsapp class="text-white h-8 w-8"/></span>
+                    </a>
+                    <a href="#">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span><x-si-twitter class="text-white h-8 w-8"/></span>
+                    </a>
+                    <a href="#">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span><x-si-github class="text-white h-8 w-8"/></span>
+                    </a>
+                    <a href="#">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </a>
+                </ul>
+            </div>
+            
+        </section>
     </main>
 </body>
 </html>
