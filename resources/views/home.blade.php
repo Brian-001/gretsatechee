@@ -122,9 +122,9 @@
         <section class="w-full h-[30vh] p-3 bg-black">
             <canvas class = 'w-full h-full object-cover' id="canvas" >
         </section>
-        <section class="w-full h-[30vh] p-3 bg-gray-700">
+        <section class="w-full h-[30vh] p-3 bg-gray-700 flex justify-evenly">
             <div class="social">
-                <h3 class="text-white text-lg top-6 flex flex-col p-12">Social Media</h3>
+                <h3 class="text-white text-lg font-bold top-6 flex flex-col p-12">Social Media</h3>
                 <ul class="flex flex-wrap space-x-6">
                     
                     <a href="#">
@@ -157,7 +157,27 @@
                     </a>
                 </ul>
             </div>
-            
+            <div class="quicklinks text-white flex flex-col space-y-4 ">
+                <h1 class="text-xl font-bold">Quiklinks</h1>
+                <span class="hover:translate-x-4 duration-500"><a href="#">Gallery</a></span>
+                <span class="hover:translate-x-4 duration-500"><a href="#">About Us</a></span>
+                <span class="hover:translate-x-4 duration-500"><a href="#">FAQS</a></span>
+            </div>
+            <div class="subscribe ">
+                <form action="" method="post">
+                    <div>
+                        <h1 class="text-xl text-white font-bold py-3">Subscribe to our email</h1>
+                    </div>
+                    <div >
+                        <input type="text" name="email" id="email" placeholder="example@gmail.com" 
+                        class=" text-center border-solid rounded-lg h-12 shadow-sm shadow-white">
+                    </div>
+                    <div class="text-white p-8">
+                        <input type="button" value="Submit" class="border border-solid py-2.5 px-4 
+                        shadow-sm shadow-white hover:translate-x-4 duration-300">
+                    </div>
+                </form>
+            </div>
         </section>
     </main>
 </body>
