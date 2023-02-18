@@ -41,7 +41,7 @@
         </section>
         <section class="grid grid-cols-[500px_1fr] gap-4">
             <div class="p-3">
-                <div class="text-sm">Design.  Code  .Network</div>
+                <div class="text-sm">Design.Code.Network</div>
                 
                 <div class="h-3/5 w-full">
                     <h1 class="text-center tracking-wider">Upcoming Events</h1>
@@ -119,10 +119,72 @@
             </div>
         </section>
         
-        <section class="w-full h-[30vh] p-3 bg-black">
+        <section class="w-full h-[30vh] py-3 bg-black">
             <canvas class = 'w-full h-full object-cover' id="canvas" >
         </section>
-        <section class="w-full h-[30vh] p-3 bg-gray-700 flex justify-evenly">
+        <section class="w-[80%] h-max mx-auto py-3">
+            <!--First Card-->
+            <div class="card1 grid md:grid-cols-[400px_1fr] gap-1 bg-slate-600 mt-8 h-[320px] w-full rounded-xl ">
+                <!-- Image -->
+                <div class = 'h-[320px] w-full rounded-xl'>
+                    <img src="{{url('/images/team.jpg')}}" alt="" class="object-cover w-full h-full rounded-l-xl">
+                </div>
+                <!-- Info -->
+                <div class = 'text-slate-50 text-center p-3 h-full flex items-center flex-col justify-center gap-3 '>
+                    <span class = 'font-bold text-3xl '>
+                        <h1>Who are we?</h1>
+                    </span>
+                    <span class="flex justify-center  items-center">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus accusantium accusamus, 
+                            porro numquam, repudiandae doloremque eius voluptate pariatur impedit quo quis vero nostrum 
+                            consequatur enim maxime rerum nihil vel autem?
+                        </p>
+                    </span>
+                </div>
+            </div>
+            <!--Second Card-->
+            <div class="card1 grid md:grid-cols-[400px_1fr] gap-1 bg-slate-600 mt-8 h-[320px] w-full rounded-xl ">
+                <!-- Image -->
+                <div class = 'h-[320px] w-full rounded-xl'>
+                    <img src="{{url('/images/learn.jpg')}}" alt="" class="object-cover w-full h-full rounded-l-xl">
+                </div>
+                <!-- Info -->
+                <div class = 'text-slate-50 text-center p-3 h-full flex items-center flex-col justify-center gap-3 '>
+                    <span class = 'font-bold text-3xl '>
+                        <h1>Objectives</h1>
+                    </span>
+                    <span class="flex justify-center  items-center">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus accusantium accusamus, 
+                            porro numquam, repudiandae doloremque eius voluptate pariatur impedit quo quis vero nostrum 
+                            consequatur enim maxime rerum nihil vel autem?
+                        </p>
+                    </span>
+                </div>
+            </div>
+            
+            <!--Third Card-->
+            <div class="card1 grid md:grid-cols-[400px_1fr] gap-1 bg-slate-600 mt-8 h-[320px] w-full rounded-xl ">
+                <!-- Image -->
+                <div class = 'h-[320px] w-full rounded-xl'>
+                    <img src="{{url('/images/passion.jpg')}}" alt="" class="object-cover w-full h-full rounded-l-xl">
+                </div>
+                <!-- Info -->
+                <div class = 'text-slate-50 text-center p-3 h-full flex items-center flex-col justify-center gap-3 '>
+                    <span class = 'font-bold text-3xl '>
+                        <h1>Yield</h1>
+                    </span>
+                    <span class="flex justify-center  items-center">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus accusantium accusamus, 
+                            porro numquam, repudiandae doloremque eius voluptate pariatur impedit quo quis vero nostrum 
+                            consequatur enim maxime rerum nihil vel autem?
+                        </p>
+                    </span>
+                </div>
+            </div>
+            
+            
+        </section>
+        <section class="w-full h-[30vh] py-6 bg-gray-700 flex justify-evenly">
             <div class="social">
                 <h3 class="text-white text-lg font-bold top-6 flex flex-col p-12">Social Media</h3>
                 <ul class="flex flex-wrap space-x-6">
@@ -132,7 +194,7 @@
                         <span></span>
                         <span></span>
                         <span></span>
-                        <span><x-eos-whatsapp class="text-white h-8 w-8"/></span>
+                        <span><x-eos-whatsapp class="text-white h-8 w-8 "/></span>
                     </a>
                     <a href="#">
                         <span></span>

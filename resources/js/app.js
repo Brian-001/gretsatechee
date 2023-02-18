@@ -25,7 +25,7 @@ function draw() {
 
   const text = texts[Math.floor(Math.random() * texts.length)];
   rowStatus.forEach((row, column) => {
-    ctx.fillStyle = "#48f613";
+    ctx.fillStyle = "#1589FF";
     ctx.fillText(text, column * fontSize, row * fontSize);
 
     rowStatus[column] += 1;

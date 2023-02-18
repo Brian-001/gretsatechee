@@ -5,7 +5,7 @@
 
 .bg-img{
     background-image: url(/public/images/cvi.jpg);
-    object-fit: cover;
+    object-fit: fill;
     background-repeat: no-repeat;
     background-size: auto;
     background-position: center;
